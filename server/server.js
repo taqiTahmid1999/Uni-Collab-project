@@ -24,7 +24,7 @@ db.connect((err) => {
     console.log('Connected to database');
 });
 
-// Root route
+// Root route URL
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
